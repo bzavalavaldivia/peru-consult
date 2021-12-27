@@ -48,5 +48,11 @@
     "scripts": {
         "lint": "phpstan analyse",
         "lint:ci": "phpstan analyse --error-format=github"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/giansalex/peru-consult"
+        }
+    ]
 }
